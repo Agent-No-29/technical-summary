@@ -3,6 +3,7 @@
 ## 一：战场总结
 - [h5新特性-h5新标签浏览器兼容性-区分h5和html](./face-write/h5新特性-h5新标签浏览器兼容性-区分h5和html.md)
 - [typeof返回的数据类型](./face-write/typeof返回的数据类型.md)
+- [cookies-sessionStorage和localStorage的区别](./face-write/cookies-sessionStorage和localStorage的区别.md)
 
 
 ## 一：算法相关
