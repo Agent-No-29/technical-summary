@@ -6,6 +6,8 @@
 - [cookies-sessionStorage和localStorage的区别](./face-write/cookies-sessionStorage和localStorage的区别.md)
 - [金额数字格式化-1999999.99-1,999,999.99](./face-write/金额数字格式化-1999999.99-1,999,999.99.md)
 - [Promess使用-5秒过去了](./face-write/Promess使用-5秒过去了.md)
+- [重绘和重排及其性能优化](./face-write/重绘和重排及其性能优化.md)
+- [简述盒模型及使用场景](./face-write/简述盒模型及使用场景.md)
 
 
 ## 一：算法相关
