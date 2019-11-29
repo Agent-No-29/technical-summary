@@ -1,3 +1,4 @@
+cookies，sessionStorage和LocalStorage的区别
 
 1）相同点是都是保存在浏览器端、且同源的  
 2）cookie数据始终在同源的http请求中携带（即使不需要），即cookie在浏览器和服务器间来回传递，而sessionStorage和localStorage不会自动把数据发送给服务器，仅在本地保存。cookie数据还有路径（path）的概念，可以限制cookie只属于某个路径下  
@@ -8,5 +9,8 @@
 
 
 
+sessionStorage和LocalStorage的区别
 
+数据有效期不同，sessionStorage：仅在当前浏览器窗口关闭之前有效；localStorage：始终有效，窗口或浏览器关闭也一直保存，因此用作持久数据；
+作用域不同，sessionStorage不在不同的浏览器窗口中共享，即使是同一个页面；localstorage是在所有同源窗口中共享的；
 
