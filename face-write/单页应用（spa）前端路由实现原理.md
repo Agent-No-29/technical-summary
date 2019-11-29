@@ -3,24 +3,24 @@
   > * window.history
   > * location.hash
 
-**原理**
-history：HTML5的History接口允许我们操作浏览器会话历史记录。以history做为路由的基础，使用history.pushState和history.replaceState，在不刷新的情况下可以改变url的地址，且如果页面发生回退back或者forward时，会触发popstate事件，得到event事件对象，有了监听事件，且改变url页面不刷新，这样就可以在监听事件的回调函数中，执行我们展示和隐藏不同UI显示的功能，从而实现前端路由。
+**原理**    
+history：HTML5的History接口允许我们操作浏览器会话历史记录。以history做为路由的基础，使用history.pushState和history.replaceState，在不刷新的情况下可以改变url的地址，且如果页面发生回退back或者forward时，会触发popstate事件，得到event事件对象，有了监听事件，且改变url页面不刷新，这样就可以在监听事件的回调函数中，执行我们展示和隐藏不同UI显示的功能，从而实现前端路由。  
 
-hash：在url中以#结尾的hash值，改变页面的hash值使页面完整的url发生了改变，但是页面是不会刷新。当hash值改变时，会触发hashchange的事件，得到一个HashChangeEvent。有了监听事件，且改变hash页面不刷新，这样就可以在监听事件的回调函数中，执行我们展示和隐藏不同UI显示的功能，从而实现前端路由。
+hash：在url中以#结尾的hash值，改变页面的hash值使页面完整的url发生了改变，但是页面是不会刷新。当hash值改变时，会触发hashchange的事件，得到一个HashChangeEvent。有了监听事件，且改变hash页面不刷新，这样就可以在监听事件的回调函数中，执行我们展示和隐藏不同UI显示的功能，从而实现前端路由。  
 
-**缺点**
-hisory  
-兼容性不如hash  
-需要后端做相应的配置，否则直接访问子页面会出现404错误   
+**缺点**  
+hisory     
+兼容性不如hash   
+需要后端做相应的配置，否则直接访问子页面会出现404错误    
 
 hash  
-搜索引擎对带有hash的页面不友好  
-带有hash的页面内难以追踪用户行为  
+搜索引擎对带有hash的页面不友好   
+带有hash的页面内难以追踪用户行为   
 
-**优点**
-hisory  
-对搜索引擎友好  
-方便统计用户行为  
+**优点**  
+hisory   
+对搜索引擎友好   
+方便统计用户行为   
 
 -------------------
 
