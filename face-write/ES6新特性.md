@@ -1,3 +1,3 @@
-![img](../imager/01.jpg)
+![img](../images/01.jpg)
 -------  
-![img](../imager/02.jpg)
+![img](../images/02.jpg)
