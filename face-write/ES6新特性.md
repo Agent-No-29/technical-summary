@@ -1,3 +1,3 @@
-[img](../images/01.jpg)
+![](../images/01.jpg)
 -------  
-[img](../images/02.jpg)
+![](../images/02.jpg)
