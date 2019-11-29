@@ -19,6 +19,7 @@
 - [实现水平垂直居中](./face-write/实现水平垂直居中.md)
 - [css选择器优先级顺序](./face-write/css选择器优先级顺序.md)
 - [ES6新特性](./face-write/ES6新特性.md)
+- [数组去重（多种解法）](./face-write/数组去重（多种解法）.md)
 
 
 ## 一：算法相关
