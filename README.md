@@ -20,6 +20,7 @@
 - [css选择器优先级顺序](./face-write/css选择器优先级顺序.md)
 - [ES6新特性](./face-write/ES6新特性.md)
 - [数组去重（多种解法）](./face-write/数组去重（多种解法）.md)
+- [var、let在for循环中的执行结果](./face-write/var、let在for循环中的执行结果.md)
 
 
 ## 一：算法相关
