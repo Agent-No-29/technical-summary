@@ -5,7 +5,7 @@
 - [typeof返回的数据类型](./face-write/typeof返回的数据类型.md)
 - [cookies-sessionStorage和localStorage的区别](./face-write/cookies-sessionStorage和localStorage的区别.md)
 - [数字格式化](./face-write/数字格式化.md)
-- [Promess使用-5秒过去了](./face-write/Promess使用-5秒过去了.md)
+- [Promess使用-5秒过去了](./face-write/Promise使用-5秒过去了.md)
 - [重绘和重排及其性能优化](./face-write/重绘和重排及其性能优化.md)
 - [简述盒模型及使用场景](./face-write/简述盒模型及使用场景.md)
 - [变量提升-代码运行](./face-write/变量提升-代码运行.md)
@@ -21,6 +21,7 @@
 - [ES6新特性](./face-write/ES6新特性.md)
 - [数组去重（多种解法）](./face-write/数组去重（多种解法）.md)
 - [var、let在for循环中的执行结果](./face-write/var、let在for循环中的执行结果.md)
+- [Promise-setTimeout执行顺序](./face-write/Promise-setTimeout执行顺序.md)
 
 
 ## 一：算法相关
