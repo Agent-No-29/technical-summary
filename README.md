@@ -22,6 +22,7 @@
 - [数组去重（多种解法）](./face-write/数组去重（多种解法）.md)
 - [var、let在for循环中的执行结果](./face-write/var、let在for循环中的执行结果.md)
 - [Promise-setTimeout执行顺序](./face-write/Promise-setTimeout执行顺序.md)
+- [this指向执行题](./face-write/this指向执行题.md)
 
 
 ## 一：算法相关
