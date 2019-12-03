@@ -23,6 +23,7 @@
 - [var、let在for循环中的执行结果](./face-write/var、let在for循环中的执行结果.md)
 - [Promise-setTimeout执行顺序](./face-write/Promise-setTimeout执行顺序.md)
 - [this指向执行题](./face-write/this指向执行题.md)
+- [XHTML和HTML有什么区别](./face-write/XHTML和HTML有什么区别.md)
 
 
 ## 一：算法相关
