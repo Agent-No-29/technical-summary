@@ -28,6 +28,7 @@
 - [Doctype作用-严格模式与混杂模式如何区分](./face-write/Doctype作用-严格模式与混杂模式如何区分.md)
 - [Css单位px,rem,em的区别](./face-write/Css单位px,rem,em的区别.md)
 - [this的理解](./face-write/this的理解.md)
+- [事件委托](./face-write/事件委托.md)
 
 
 ## 一：算法相关
