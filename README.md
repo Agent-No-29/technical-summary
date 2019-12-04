@@ -34,6 +34,7 @@
 - [从输入url到页面加载完成发生了什么](./face-write/从输入url到页面加载完成发生了什么.md)
 - [实现一个函数findMax](./face-write/实现一个函数findMax.md)
 - [实现一个函数forEach](./face-write/实现一个函数forEach.md)
+- [link和@import的区别](./face-write/link和@import的区别.md)
 
 
 ## 一：算法相关
