@@ -31,6 +31,7 @@
 - [事件委托](./face-write/事件委托.md)
 - [同源策略-跨域](./face-write/同源策略-跨域.md)
 - [HTTP状态码及其含义](./face-write/HTTP状态码及其含义.md)
+- [从输入url到页面加载完成发生了什么](./face-write/从输入url到页面加载完成发生了什么.md)
 
 
 ## 一：算法相关
