@@ -32,6 +32,7 @@
 - [同源策略-跨域](./face-write/同源策略-跨域.md)
 - [HTTP状态码及其含义](./face-write/HTTP状态码及其含义.md)
 - [从输入url到页面加载完成发生了什么](./face-write/从输入url到页面加载完成发生了什么.md)
+- [实现一个函数findMax](./face-write/实现一个函数findMax.md)
 
 
 ## 一：算法相关
