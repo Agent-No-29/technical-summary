@@ -1,4 +1,4 @@
-```
+``` javascript
         function wait(n) {
           return new Promise((resolve,reject) => {
             setTimeout(() => {
