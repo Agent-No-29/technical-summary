@@ -1,0 +1,110 @@
+摘自js高级编程
+### 闭包
+
+> 闭包是指 **有权访问另一个函数作用域中的变量的函数**。
+
+> 创建闭包的常见方式，就是在一个函数内部创建另一个函数。
+
+> 当某个函数被调用时，会创建一个执行环境及相应的作用域链。
+
+### 执行环境 execution context
+
+> 执行环境定义了变量或函数有权访问的其他数据，每个执行环境都有一个与之关联的**变量对象**（variable object），环境中定义的所有变量和函数都保存在这个对象中。编写的代码无法访问这个对象，但解析器在处理数据时会在后台使用。
+
+> 每个函数都有自己的执行环境。当执行流进入一个函数时，函数的环境就会被推入一个环境栈中。而在函数执行之后，栈将其环境弹出，把控制权返回给之前的执行环境。
+
+> 某个执行环境中的所有代码执行完毕后，该环境被销毁，保存在其中的所有变量和函数定义也随之销毁。
+
+### 全局执行环境
+
+> 最外围执行环境，所在的宿主环境不同而不同，在 Web 浏览器中为window，，因此所有全局变量和函数都是作为 window 对象的属性和方法创建的。
+> 全局执行环境在应用程序退出——例如关闭网页或浏览器时才会被销毁。
+
+### 作用域链
+
+> 当代码在一个环境中执行时，会创建变量对象的一个作用域链（scope chain）。作用域链的用途，是保证对执行环境有权访问的所有变量和函数的有序访问。其本质上是一个指向变量对象的指针列表。
+
+> 作用域链的前端，始终都是当前执行的代码所在环境的变量对象。标识符解析是沿着作用域链一级一级地搜索标识符的过程。搜索过程始终从作用域链的前端开始，然后逐级地向后回溯，直至找到标识符为止（如果找不到标识符，通常会导致错误发生）。
+
+> 全局执行环境的变量对象始终都是作用域链中的最后一个对象。
+
+### this
+
+> this 对象是**在运行时基于函数的执行环境绑定的**
+  
+> 在闭包中使用 this 对象也可能会导致一些问题
+
+```$xslt
+  var name = "The Window"; 
+  var object = { 
+   name : "My Object", 
+   getNameFunc : function(){ 
+      return function(){ 
+          return this.name; 
+      }; 
+   } 
+  }; 
+  alert(object.getNameFunc()()); //"The Window"（在非严格模式下）
+```
+
+> 每个函数在被调用时都会自动取得两个特殊变量：this 和 arguments。内部函数在搜索这两个变量时，只会搜索到其活动对象为止，因此永远不可能直接访问外部函数中的这两个变量。
+
+> 把外部作用域中的 this 对象保存在一个闭包能够访问到的变量里，就可以让闭包访问该对象了。
+
+```$xslt
+function createComparisonFunction(propertyName) { 
+  return function(object1, object2){ 
+     var value1 = object1[propertyName]; 
+     var value2 = object2[propertyName]; 
+     if (value1 < value2){ 
+        return -1; 
+     } else if (value1 > value2){ 
+        return 1; 
+     } else { 
+        return 0; 
+     } 
+  }; 
+}
+
+var compareNames = createComparisonFunction("name");
+
+//解除对匿名函数的引用（以便释放内存）
+compareNames = null;
+```
+> 在另一个函数内部定义的函数会将外部函数的活动对象添加到它的作用域链中
+
+> 上述匿名函数被返回后，它的作用域链被初始化为包含外部函数的活动对象和全局变量对象。
+匿名函数就可以访问在外部函数中定义的所有变量，外部函数在执行完毕后，其执行环境的作用域链会被销毁，但它的活动对象仍然会留在内存中，
+因为匿名函数的作用域链仍然在引用这个活动对象，直到匿名函数被销毁后，外部函数的活动对象才会被销毁。
+
+### 闭包与变量
+
+```$xslt
+function createFunctions(){ 
+  var result = new Array(); 
+  for (var i=0; i < 10; i++){ 
+      result[i] = function(){ 
+          return i; 
+      }; 
+  } 
+  return result; 
+}
+```
+> 每个函数都返回 10。因为每个函数的作用域链中都保存着 createFunctions() 函数的活动对象，所以它们引用的都是同一个变量 i 。
+ 当createFunctions()函数返回后，变量 i 的值是 10，此时每个函数都引用着保存变量 i 的同一个变量对象，所以在每个函数内部 i 的值都是 10。
+ 
+> 可以通过创建另一个匿名函数强制让闭包的行为符合预期。
+
+```$xslt
+function createFunctions(){ 
+  var result = new Array(); 
+  for (var i=0; i < 10; i++){ 
+      result[i] = function(num){ 
+          return function(){ 
+              return num; 
+          }; 
+      }(i);
+  } 
+  return result; 
+}
+```

@@ -91,7 +91,7 @@ Vue.use(VueRouter)
 ```
 
 ### 原理
-
+vue源码：
 ```
 export function initUse(Vue) {
   Vue.use = function (plugin) {
