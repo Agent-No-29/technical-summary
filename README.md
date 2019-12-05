@@ -1,12 +1,16 @@
 二十九号前端组技术总结
 
 ## 一：战场总结
-####html
+
+#### html
+
 - [h5新特性-h5新标签浏览器兼容性-区分h5和html](./face-write/h5新特性-h5新标签浏览器兼容性-区分h5和html.md)
 - [XHTML和HTML有什么区别](./face-write/XHTML和HTML有什么区别.md)
 - [前端页面有哪三层构成,分别是什么-作用是什么](./face-write/前端页面有哪三层构成,分别是什么-作用是什么.md)
 - [Doctype作用-严格模式与混杂模式如何区分](./face-write/Doctype作用-严格模式与混杂模式如何区分.md)
-####js
+
+#### js
+
 - [typeof返回的数据类型](./face-write/typeof返回的数据类型.md)
 - [cookies-sessionStorage和localStorage的区别](./face-write/cookies-sessionStorage和localStorage的区别.md)
 - [数字格式化](./face-write/数字格式化.md)
@@ -23,10 +27,14 @@
 - [事件委托](./face-write/事件委托.md)
 - [实现一个函数findMax](./face-write/实现一个函数findMax.md)
 - [实现一个函数forEach](./face-write/实现一个函数forEach.md)
-####vue
+
+#### vue
+
 - [单页应用（spa）前端路由实现原理](./face-write/单页应用（spa）前端路由实现原理.md)
 - [vue自定义指令的作用](./face-write/vue自定义指令的作用.md)
-####css
+
+#### css
+
 - [使用css3画一个三角形](./face-write/使用css3画一个三角形.md)
 - [css四种定位方式及其区别](./face-write/css四种定位方式及其区别.md)
 - [实现div的动画移动](./face-write/实现div的动画移动.md)
@@ -36,7 +44,9 @@
 - [Css单位px,rem,em的区别](./face-write/Css单位px,rem,em的区别.md)
 - [link和@import的区别](./face-write/link和@import的区别.md)
 - [简述盒模型及使用场景](./face-write/简述盒模型及使用场景.md)
-####http与浏览器
+
+#### http与浏览器
+
 - [HTTP状态码及其含义](./face-write/HTTP状态码及其含义.md)
 - [同源策略-跨域](./face-write/同源策略-跨域.md)
 - [从输入url到页面加载完成发生了什么](./face-write/从输入url到页面加载完成发生了什么.md)
