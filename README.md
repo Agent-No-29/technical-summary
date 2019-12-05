@@ -14,7 +14,7 @@
 - [typeof返回的数据类型](./face-write/typeof返回的数据类型.md)
 - [cookies-sessionStorage和localStorage的区别](./face-write/cookies-sessionStorage和localStorage的区别.md)
 - [数字格式化](./face-write/数字格式化.md)
-- [Promess使用-5秒过去了](./face-write/Promise使用-5秒过去了.md)
+- [Promise使用-5秒过去了](./face-write/Promise使用-5秒过去了.md)
 - [重绘和重排及其性能优化](./face-write/重绘和重排及其性能优化.md)
 - [变量提升-代码运行](./face-write/变量提升-代码运行.md)
 - [获取菲波那契数列的第N个元素](./face-write/获取菲波那契数列的第N个元素.md)
@@ -32,6 +32,8 @@
 
 - [单页应用（spa）前端路由实现原理](./face-write/单页应用（spa）前端路由实现原理.md)
 - [vue自定义指令的作用](./face-write/vue自定义指令的作用.md)
+- [vue中的this](./face-write/vue中的this.md)
+- [vue插件-use与install及其原理](./face-write/vue插件-use-install.md)
 
 #### css
 
