@@ -28,6 +28,7 @@
 - [实现一个函数findMax](./face-write/实现一个函数findMax.md)
 - [实现一个函数forEach](./face-write/实现一个函数forEach.md)
 - [闭包-作用域链-执行环境-this](face-write/闭包-作用域链-执行环境-this.md)
+- [](face-write/JS中==和===的区别.md)
 
 #### vue
 
