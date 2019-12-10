@@ -29,7 +29,6 @@
 - [实现一个函数forEach](./face-write/实现一个函数forEach.md)
 - [闭包-作用域链-执行环境-this](face-write/闭包-作用域链-执行环境-this.md)
 - [JS中==和===的区别](face-write/JS中==和===的区别.md)
-- [闭包-作用域的理解](face-write/闭包-作用域的理解.md)
 
 #### vue
 
