@@ -28,6 +28,7 @@
 - [实现一个函数findMax](./face-write/实现一个函数findMax.md)
 - [实现一个函数forEach](./face-write/实现一个函数forEach.md)
 - [闭包-作用域链-执行环境-this](face-write/闭包-作用域链-执行环境-this.md)
+- [JS中==和===的区别](face-write/JS中==和===的区别.md)
 
 #### vue
 
@@ -53,6 +54,7 @@
 - [HTTP状态码及其含义](./face-write/HTTP状态码及其含义.md)
 - [同源策略-跨域](./face-write/同源策略-跨域.md)
 - [从输入url到页面加载完成发生了什么](./face-write/从输入url到页面加载完成发生了什么.md)
+- [请求函数封装，可设置请求次数，请求失败则继续请求](./face-write/请求函数封装，可设置请求次数，请求失败则继续请求.md)
 
 
 
