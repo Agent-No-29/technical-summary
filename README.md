@@ -1,6 +1,10 @@
 二十九号前端组技术总结
 
-## 一：战场总结
+## 一：服务器
+
+- [Windows-Nginx](./docs/Nginx/1.md)
+
+## 零：战场总结
 
 #### html
 
@@ -8,6 +12,7 @@
 - [XHTML和HTML有什么区别](./face-write/XHTML和HTML有什么区别.md)
 - [前端页面有哪三层构成,分别是什么-作用是什么](./face-write/前端页面有哪三层构成,分别是什么-作用是什么.md)
 - [Doctype作用-严格模式与混杂模式如何区分](./face-write/Doctype作用-严格模式与混杂模式如何区分.md)
+- [meta标签的作用-seo-无障碍web应用](./face-write/meta标签的作用-seo-无障碍web应用.md)
 
 #### js
 
