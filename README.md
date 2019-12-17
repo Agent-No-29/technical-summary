@@ -34,6 +34,7 @@
 - [实现一个函数forEach](./face-write/实现一个函数forEach.md)
 - [闭包-作用域链-执行环境-this](face-write/闭包-作用域链-执行环境-this.md)
 - [JS中==和===的区别](face-write/JS中==和===的区别.md)
+- [数组的平铺、去重、排序](face-write/数组的平铺、去重、排序.md)
 
 #### vue
 
