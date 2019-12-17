@@ -38,6 +38,7 @@
 #### vue
 
 - [单页应用（spa）前端路由实现原理](./face-write/单页应用（spa）前端路由实现原理.md)
+- [说说你对SPA单页面的理解，它的优缺点分别是什么](./face-write/说说你对SPA单页面的理解，它的优缺点分别是什么.md)
 - [vue自定义指令的作用](./face-write/vue自定义指令的作用.md)
 - [vue中的this](./face-write/vue中的this.md)
 - [vue插件-use与install及其原理](./face-write/vue插件-use-install.md)
