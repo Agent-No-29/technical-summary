@@ -47,6 +47,8 @@
 - [怎样理解Vue的单向数据流](./face-write/怎样理解Vue的单向数据流.md)
 - [computed和watch的区别和运用的场景](./face-write/computed和watch的区别和运用的场景.md)
 - [在哪个生命周期内调用异步请求](./face-write/在哪个生命周期内调用异步请求.md)
+- [父组件可以监听到子组件的生命周期吗](./face-write/父组件可以监听到子组件的生命周期吗.md)
+
 
 #### css
 
