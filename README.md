@@ -46,6 +46,7 @@
 - [v-show与v-if有什么区别](./face-write/v-show与v-if有什么区别.md)
 - [怎样理解Vue的单向数据流](./face-write/怎样理解Vue的单向数据流.md)
 - [computed和watch的区别和运用的场景](./face-write/computed和watch的区别和运用的场景.md)
+- [在哪个生命周期内调用异步请求](./face-write/在哪个生命周期内调用异步请求.md)
 
 #### css
 
