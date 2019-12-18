@@ -50,6 +50,7 @@
 - [父组件可以监听到子组件的生命周期吗](./face-write/父组件可以监听到子组件的生命周期吗.md)
 - [对keep-alive的理解](./face-write/对keep-alive的理解.md)
 - [SSR的理解](./face-write/SSR的理解.md)
+- [Proxy与Object.defineProperty优劣对比](./face-write/Proxy与Object.defineProperty优劣对比.md)
 
 
 #### css
