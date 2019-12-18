@@ -49,6 +49,7 @@
 - [在哪个生命周期内调用异步请求](./face-write/在哪个生命周期内调用异步请求.md)
 - [父组件可以监听到子组件的生命周期吗](./face-write/父组件可以监听到子组件的生命周期吗.md)
 - [对keep-alive的理解](./face-write/对keep-alive的理解.md)
+- [SSR的理解](./face-write/SSR的理解.md)
 
 
 #### css
