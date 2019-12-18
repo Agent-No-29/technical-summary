@@ -43,6 +43,7 @@
 - [vue自定义指令的作用](./face-write/vue自定义指令的作用.md)
 - [vue中的this](./face-write/vue中的this.md)
 - [vue插件-use与install及其原理](./face-write/vue插件-use-install.md)
+- [v-show与v-if有什么区别](./face-write/v-show与v-if有什么区别.md)
 
 #### css
 
