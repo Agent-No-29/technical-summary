@@ -52,6 +52,7 @@
 - [SSR的理解](./face-write/SSR的理解.md)
 - [Proxy与Object.defineProperty优劣对比](./face-write/Proxy与Object.defineProperty优劣对比.md)
 - [虚拟DOM的优缺点-原理](./face-write/虚拟DOM的优缺点-原理.md)
+- [Vue中的key有什么作用](./face-write/Vue中的key有什么作用.md)
 
 
 #### css
