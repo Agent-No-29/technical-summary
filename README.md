@@ -45,6 +45,7 @@
 - [vue插件-use与install及其原理](./face-write/vue插件-use-install.md)
 - [v-show与v-if有什么区别](./face-write/v-show与v-if有什么区别.md)
 - [怎样理解Vue的单向数据流](./face-write/怎样理解Vue的单向数据流.md)
+- [computed和watch的区别和运用的场景](./face-write/computed和watch的区别和运用的场景.md)
 
 #### css
 
