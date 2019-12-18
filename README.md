@@ -43,6 +43,18 @@
 - [vue自定义指令的作用](./face-write/vue自定义指令的作用.md)
 - [vue中的this](./face-write/vue中的this.md)
 - [vue插件-use与install及其原理](./face-write/vue插件-use-install.md)
+- [v-show与v-if有什么区别](./face-write/v-show与v-if有什么区别.md)
+- [怎样理解Vue的单向数据流](./face-write/怎样理解Vue的单向数据流.md)
+- [computed和watch的区别和运用的场景](./face-write/computed和watch的区别和运用的场景.md)
+- [在哪个生命周期内调用异步请求](./face-write/在哪个生命周期内调用异步请求.md)
+- [父组件可以监听到子组件的生命周期吗](./face-write/父组件可以监听到子组件的生命周期吗.md)
+- [对keep-alive的理解](./face-write/对keep-alive的理解.md)
+- [SSR的理解](./face-write/SSR的理解.md)
+- [Proxy与Object.defineProperty优劣对比](./face-write/Proxy与Object.defineProperty优劣对比.md)
+- [虚拟DOM的优缺点-原理](./face-write/虚拟DOM的优缺点-原理.md)
+- [Vue中的key有什么作用](./face-write/Vue中的key有什么作用.md)
+- [对Vue项目进行哪些优化](./face-write/对Vue项目进行哪些优化.md)
+
 
 #### css
 
