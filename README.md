@@ -50,7 +50,7 @@
 - [display_none与visibility_hidden的区别](./face-write/display_none与visibility_hidden的区别.md)
 - [实现水平垂直居中](./face-write/实现水平垂直居中.md)
 - [css选择器优先级顺序](./face-write/css选择器优先级顺序.md)
-- [Css单位px,rem,em的区别](./face-write/Css单位px,rem,em的区别.md)
+- [Css单位px,rem,em的区别](face-write/css单位px,rem,em的区别.md)
 - [link和@import的区别](./face-write/link和@import的区别.md)
 - [简述盒模型及使用场景](./face-write/简述盒模型及使用场景.md)
 
