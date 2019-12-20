@@ -27,3 +27,61 @@
 1. DOCTYPE声明
 2. 新增的结构元素
 3. 功能元素
+
+# ------------------------------------------
+（Continue writing by mayingying）
+
+### 1.拖放
+```html
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style type="text/css">
+    #div1 {
+      width: 198px;
+      height: 66px;
+      border: 1px solid #aaaaaa;
+    }
+    #drag1 {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #aaaaaa;
+    }
+  </style>
+  <script type="text/javascript">
+    function allowDrop(ev) {
+      /*默认无法将数据/元素放置到其他元素中，阻止对元素的默认处理*/
+      ev.preventDefault();
+    }
+
+    function drag(ev) {
+      /*dataTransfer.setData() 方法设置被拖数据的数据类型和值：*/
+      ev.dataTransfer.setData("Text", ev.target.id);
+    }
+
+    function drop(ev) {
+      /*避免浏览器对数据的默认处理（drop 事件的默认行为是以链接形式打开）*/
+      ev.preventDefault();
+      /*获得被拖的数据，该方法将返回在 setData() 中相同类型的任何数据。*/
+      var data = ev.dataTransfer.getData("Text");
+      /*把被拖元素追加到放置元素（目标元素）中*/
+      ev.target.appendChild(document.getElementById(data));
+    }
+
+  </script>
+</head>
+<body>
+<p>把小的拖到大的里面</p>
+
+<!--设置元素为可拖放：draggable="true"-->
+<!--开始拖拽：ondragstart-->
+<div id="drag1" draggable="true" ondragstart="drag(event)"></div>
+
+<!--ondragover 事件规定在何处放置被拖动的数据。-->
+<!--ondrop 事件被拖数据时触发。-->
+<div id="div1" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+</body>
+</html>
+
+```
