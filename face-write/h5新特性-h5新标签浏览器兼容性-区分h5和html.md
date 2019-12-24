@@ -3,7 +3,7 @@
 2. 语义化更好的内容标签（header,nav,footer,aside,article,section）
 3. 音频、视频API(audio,video)
 4. 画布(Canvas) API
-5. 地理(Geolocation) API
+5. 地理(Geolocation) API  
 6. 本地离线存储 localStorage 长期存储数据，浏览器关闭后数据不丢失；
 7. sessionStorage 的数据在浏览器关闭后自动删除
 8. 表单控件，calendar、date、time、email、url、search  
@@ -32,56 +32,20 @@
 （Continue writing by mayingying）
 
 ### 1.拖放
-```html
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta charset="utf-8">
-  <style type="text/css">
-    #div1 {
-      width: 198px;
-      height: 66px;
-      border: 1px solid #aaaaaa;
-    }
-    #drag1 {
-      width: 30px;
-      height: 30px;
-      border: 1px solid #aaaaaa;
-    }
-  </style>
-  <script type="text/javascript">
-    function allowDrop(ev) {
-      /*默认无法将数据/元素放置到其他元素中，阻止对元素的默认处理*/
-      ev.preventDefault();
-    }
 
-    function drag(ev) {
-      /*dataTransfer.setData() 方法设置被拖数据的数据类型和值：*/
-      ev.dataTransfer.setData("Text", ev.target.id);
-    }
+[]()
 
-    function drop(ev) {
-      /*避免浏览器对数据的默认处理（drop 事件的默认行为是以链接形式打开）*/
-      ev.preventDefault();
-      /*获得被拖的数据，该方法将返回在 setData() 中相同类型的任何数据。*/
-      var data = ev.dataTransfer.getData("Text");
-      /*把被拖元素追加到放置元素（目标元素）中*/
-      ev.target.appendChild(document.getElementById(data));
-    }
+### 2.Geolocation [dʒɪɒləʊ'keɪʃn] 
 
-  </script>
-</head>
-<body>
-<p>把小的拖到大的里面</p>
+> Geolocation 接口是一个用来获取设备地理位置的可编程的对象，
+  它可以让Web内容访问到设备的地理位置，
+  这将允许Web应用基于用户的地理位置提供定制的信息。
+  其实 Geolocation 就是用来获取到当前设备的经纬度（位置）
+  
+> 带有此接口的对象：Navigator，
+  Navigator.geolocation 只读属性返回一个 Geolocation 对象 
+  
+[]()
 
-<!--设置元素为可拖放：draggable="true"-->
-<!--开始拖拽：ondragstart-->
-<div id="drag1" draggable="true" ondragstart="drag(event)"></div>
+### 3.websocket
 
-<!--ondragover 事件规定在何处放置被拖动的数据。-->
-<!--ondrop 事件被拖数据时触发。-->
-<div id="div1" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
-</body>
-</html>
-
-```

@@ -2,7 +2,7 @@
 
 ## 一：服务器
 
-- [Windows-Nginx](docs/nginx/1.md)
+- [Windows-Nginx](docs/nginx/windows-nginx.md)
 
 ## 零：战场总结
 
