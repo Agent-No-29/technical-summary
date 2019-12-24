@@ -33,7 +33,7 @@
 
 ### 1.拖放
 
-[]()
+[demo](https://github.com/YingyingMas/technical-summary/blob/master/html/1.h5-drag.html)
 
 ### 2.Geolocation [dʒɪɒləʊ'keɪʃn] 
 
@@ -45,7 +45,7 @@
 > 带有此接口的对象：Navigator，
   Navigator.geolocation 只读属性返回一个 Geolocation 对象 
   
-[]()
+[demo](https://github.com/YingyingMas/technical-summary/blob/master/html/2.h5-geolocation.html)
 
 ### 3.websocket
 
