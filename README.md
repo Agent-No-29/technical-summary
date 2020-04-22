@@ -36,6 +36,7 @@
 - [JS中==和===的区别](face-write/JS中==和===的区别.md)
 - [数组的平铺、去重、排序](face-write/数组的平铺、去重、排序.md)
 - [防抖节流](face-write/防抖节流.md)
+- [GET和POST区别](face-write/GET和POST区别.md)
 
 #### vue
 
